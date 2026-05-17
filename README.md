@@ -61,20 +61,12 @@ Problem Formulation
 ## 📁 Repository Structure
 
 ```
-📦 vrptw-installation-optimization/
-├── 📂 model/
-│   ├── vrptw_milp.py          # Core MILP formulation
-│   ├── mtz_constraints.py     # MTZ subtour elimination
-│   └── installation_sched.py  # Installation task constraints
-├── 📂 solver/
-│   ├── cplex_solver.py        # IBM CPLEX integration
-│   └── dantzig_wolfe.py       # Decomposition (WIP)
-├── 📂 instances/
-│   └── benchmark_data/        # 15 test instances
-├── 📂 results/
-│   └── solution_plots/        # Route visualizations
-├── requirements.txt
-└── README.md
+## 📁 Repository Structure
+
+📦 Vehicle-Routing-with-Installation-Tasks-Optimization/
+├── VRPTW_Installation_Optimization_CPLEX.ipynb  # Full MILP model + CPLEX solve
+├── README.md
+└── LICENSE
 ```
 
 ---
